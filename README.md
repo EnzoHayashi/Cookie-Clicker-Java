@@ -1,47 +1,51 @@
-🍪 Cookie Clicker - Java Swing
+# Projeto-CookieClicker
 
-Um mini-jogo simples e divertido desenvolvido em Java com Swing, inspirado no famoso "Cookie Clicker".
-O objetivo é clicar no cookie para aumentar seu contador de cliques. Também há um botão para resetar o progresso.
-O projeto é ideal para quem está aprendendo GUI em Java e quer entender layouts, eventos e manipulação de imagens.
+# 🍪 Jogo Cookie Clicker (Java + Swing)
 
-🛠️ Tecnologias Utilizadas
+Este projeto é uma implementação simples do clássico **Cookie Clicker** desenvolvida em **Java** utilizando **Swing** para a interface gráfica.  
+O objetivo é clicar no botão do cookie para aumentar o contador e tentar fazer o maior número de cliques possível.  
+O projeto é ideal para quem está aprendendo **desenvolvimento de GUIs** e **manipulação de eventos** em Java.
 
-Java (versão 8+)
-Swing para interface gráfica
-SpringLayout para posicionamento de elementos
-ImageIO para carregamento e redimensionamento de imagens
+---
 
-📂 Estrutura do Projeto
-/src ├── Application.java # Classe principal para executar o jogo ├── Cookie.java # Implementação da interface e lógica /resources ├── banner.png # Imagem do banner do jogo ├── cookie.png # Imagem do botão de cookie README.md # Documentação do projeto
+## 🚀 Funcionalidades
 
-🚀 Como Executar
+- Contador de cliques incrementado a cada clique no cookie
+- Botão de **reset** para zerar o contador
+- Layout com **SpringLayout** para posicionamento preciso
+- Carregamento e redimensionamento de imagens (`banner.png` e `cookie.png`)
 
-1️⃣ Pré-requisitos
-Java 8 ou superior instalado no sistema
-Imagens banner.png e cookie.png disponíveis na pasta /resources
+---
 
-✨ Funcionalidades
+## 🧱 Estrutura de Classes
 
-Contador que aumenta a cada clique no cookie
+- `Cookie`  
+  Classe principal que monta a interface, gerencia o contador e trata os eventos dos botões.
 
-Botão para resetar o contador
+- `Application`  
+  Classe de inicialização do jogo, responsável por criar a janela e exibir o jogo.
 
-Layout responsivo via SpringLayout
+---
 
-Imagens personalizadas e redimensionadas para melhor estética
+## 🖥️ Interface Gráfica
 
-📚 Aprendizados
+O projeto utiliza **Java Swing** e inclui:
+- Banner superior com imagem personalizada
+- Botão central do cookie (imagem clicável)
+- Campo de texto que exibe o número de cliques
+- Botão de reset para reiniciar o contador
 
-Este projeto demonstra:
+---
 
-Como criar janelas e componentes com Swing
+## 📦 Tecnologias Utilizadas
 
-Como usar layouts para posicionar elementos
+- **Java 8+**
+- **Java Swing** (GUI)
+- **SpringLayout** para posicionamento de elementos
+- **ImageIO** para leitura e redimensionamento de imagens
 
-Eventos com ActionListener em botões
+---
 
-Carregamento e redimensionamento de imagens usando ImageIO
+## 📄 Licença
 
-📄 Licença
-
-Este projeto é livre para estudo e modificação.
+Este projeto é livre para estudo, modificação e uso não comercial.
